@@ -1,0 +1,36 @@
+body{
+    margin: 0;
+    height: 3000px;
+    background-color: #0a0905;
+}
+
+img{
+    width: 1900px;
+    height: 1000px;
+}
+
+h1{
+    position: fixed;
+    text-align: center;
+    margin-left: 20%;
+    color: white;
+    font-size: 200px;
+    top: 10%;
+}
+
+.text{
+    z-index: -1;
+}
+
+.berg{
+    position: absolute;
+    display: block;
+    top: 0%;
+    z-index: 1;
+}
+
+.background{
+    background-color: #0a0905;
+    height: 300px;
+    z-index: 1;
+}
